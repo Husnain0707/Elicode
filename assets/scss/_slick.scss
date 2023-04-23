@@ -1,0 +1,37 @@
+.blog-container {
+    .multiple-items {
+        .slick-list {
+            .slick-track {
+                .slick-active {
+
+                    &.slick-current {
+                        .slider-box {
+                            box-shadow: 0px 25px 80px -30px rgba(0, 1, 18, 0.2);
+                        }
+                    }
+                }
+            }
+        }
+    
+        .slick-dots {
+            bottom: -48px;
+    
+            li {
+                button {
+                    &::before {
+                        color: $primary;
+                    }
+                }
+            }
+    
+            .slick-active {
+                button {
+                    &::before {
+                        font-size: 8px;
+                        color: $primary;
+                    }
+                }
+            }
+        }
+    }
+}

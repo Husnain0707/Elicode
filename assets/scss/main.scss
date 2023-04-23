@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "Poppins";
+    src: url(../fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Poppins-bold";
+    src: url(../fonts/Poppins-ExtraBold.ttf);
+}
+
+
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins/breakpoints";
+@import  "variables";
+@import "header";
+@import "home";
+@import "slick";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+
+    &::after {
+        box-sizing: border-box;
+    }
+
+    &::before {
+        box-sizing: border-box;
+    }
+}
+
+body {
+    overflow-x: hidden;
+}
+
+

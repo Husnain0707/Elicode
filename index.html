@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./node_modules/wowjs/css/libs/animate.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./node_modules/bootstrap/scss/_mixins.scss" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container nav-bg">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/images/logo.png">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Examples
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">SQL</a></li>
+                            <li><a class="dropdown-item" href="#">Python</a></li>
+                            <li><a class="dropdown-item" href="#">R</a></li>
+                            <li><a class="dropdown-item" href="#">node.JS</a></li>
+                            <li><a class="dropdown-item" href="#">Java</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Features
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Text to Code</a></li>
+                            <li><a class="dropdown-item" href="#">Code to Text</a></li>
+                            <li><a class="dropdown-item" href="#">Debugger</a></li>
+                            <li><a class="dropdown-item" href="#">Chrome Extn <br> in Progress</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Enterprise</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Resources
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Help people <br> w syntax/ <br> structure for <br>
+                                    SQL, Python, Etc.</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <button class="btn signin-btn" type="submit">Sign in</button>
+                    <button class="btn signup-btn" type="submit">FREE Sign Up</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- End header -->
+
+    <div class="playground-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="playground-left wow slideInLeft">
+                        <h1 class="playground-left-heading"><span class="create-text">Create code,</span> with Plain
+                            English.</h1>
+                        <p class="playground-text">Create & translate code in SQL, Python, JS, and 99+ other languages
+                            in <span class="playground-text-bold">seconds.</span> Use the most powerful A.I engine in
+                            the world to flatten the coding learning curve today.</p>
+                        <p class="playground-text">Sign up now and get 20 free credits. No CC required!</p>
+                        <div class="open-playground-btn">
+                            <button class="btn playground-btn">
+                                <span class="btn-text">open playground</span>
+                                <span class="btn-img">
+                                    <img src="./assets/images/arrow.png">
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 pt-lg-0 pt-5">
+                    <div class="playground-right wow slideInRight">
+                        <div class="playground-img-section">
+                            <figure class="playground-img-content">
+                                <img class="playground-img" src="./assets/images/playground-img.png">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="magic-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="magic-left wow slideInLeft">
+                        <h1 class="magic-left-heading">Simple, powerful…pure magic</h1>
+                        <p class="magic-left-para">Take a peek at our code generator.</p>
+                        <div class="magic-left-box">
+                            <div class="magic-left-box-1 d-flex align-items-center">
+                                <figure class="mb-0">
+                                    <img src="./assets/images/magic-man-img.png">
+                                </figure>
+                                <p class="magic-left-box-text mb-0">“Create an SQL query to find all orders from Tokyo
+                                    from December 2015”</p>
+                            </div>
+                            <div class="magic-left-box-2 d-flex align-items-center">
+                                <figure class="mb-0">
+                                    <img src="./assets/images/magic-greater-img.png">
+                                </figure>
+                                <p class="magic-left-box-text-2 mb-0">SELECT * FROM orders_table <br> WHERE city =
+                                    ‘Tokyo’
+                                    <br> AND order_date BETWEEN ‘2015-12-01’ AND ‘2015-12-31’
+                                </p>
+                            </div>
+                        </div>
+                        <div class="magic-left-code">
+                            <p class="magic-left-code-text mb-0">Generate Code</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-lg-0 mt-5">
+                    <div class="magic-right wow slideInRight">
+                        <div class="magic-right-box">
+                            <div class="magic-right-box-1 d-flex">
+                                <figure>
+                                    <img src="./assets/images/magic-girl-img.png">
+                                </figure>
+                                <div class="magic-right-text">
+                                    <p class="magic-right-box-text">“Translate the following code into English &
+                                        identify the language:”</p>
+                                    <p class="magic-right-box-text mt-4">if (x == 5) { Console.WriteLine("x is equal to
+                                        5");}
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="magic-right-box-2 d-flex align-items-center">
+                                <figure>
+                                    <img src="./assets/images/magic-greater-img.png">
+                                </figure>
+                                <p class="magic-right-box-text-2">If x is equal to 5, then the console will write "x is
+                                    equal to 5". It is written in C#</p>
+                            </div>
+                        </div>
+                        <div class="magic-right-code">
+                            <p class="magic-right-code-text mb-0">Translate Code</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row wow slideInDown">
+                <div class="col-md-12 mt-lg-0 mt-5 d-flex justify-content-center">
+                    <div class="magic-center-box">
+                        <div class="magic-center-box-1 d-flex align-items-center">
+                            <figure>
+                                <img src="./assets/images/magic-center-girl.png">
+                            </figure>
+                            <p class="magic-center-box-text">“Debug the following code”: <br>
+                                function addNumbers(a, b) { let result = a + b; return result; } let x = 5; let y = 10;
+                                let sum = addNumbers(x, y); console.log(sum); // Output: 15
+                            </p>
+                        </div>
+                        <div class="magic-center-box-2 d-flex">
+                            <figure class="mb-0">
+                                <img src="./assets/images/magic-greater-img.png">
+                            </figure>
+                            <p class="magic-center-box-text-2 mb-0">Select</p>
+                        </div>
+                        <div class="magic-center-code">
+                            <p class="magic-center-code-text">Easy copy & paste</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="team-container">
+        <div class="container">
+            <div class="">
+                <h1 class="team-main-heading wow slideInDown">It’s a Code world</h1>
+                <p class="team-main-para wow slideInDown">Save time, headache, & start advancing your career with A.I generated code</p>
+                <div class="team-parent row">
+                    <div class="col-md-4 card-wrapper">
+                        <div class="cards wow slideInLeft">
+                            <figure class="team-bg-img">
+                                <img src="./assets/images/team-1.png" class="team-img">
+                            </figure>
+                            <p class="team-card-text">Product/Project Manager</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 card-wrapper">
+                        <div class="cards wow fadeInUpBig">
+                            <figure class="team-bg-img">
+                                <img src="./assets/images/team-2.png" class="team-img">
+                            </figure>
+                            <p class="team-card-text">Junior Developers</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 card-wrapper">
+                        <div class="cards wow slideInRight">
+                            <figure class="team-bg-img">
+                                <img src="./assets/images/team-3.png" class="team-img">
+                            </figure>
+                            <p class="team-card-text">All Non-Technical Roles</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="code-container">
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="col-md-6">
+                    <div class="code-left wow slideInLeft">
+                        <h1 class="code-left-heading">We open up code to <span
+                                class="code-underline-text">everyone.</span></h1>
+                        <div class="code-left-text-box">
+                            <div class="code-left-text-box-1">
+                                <p class="code-box-text">Just type your request...</p>
+                            </div>
+                            <div class="code-left-text-box-2">
+                                <p class="code-box-text-2">And watch the magic </p>
+                            </div>
+                        </div>
+
+                        <div class="code-gallery">
+                            <div class="code-img-gallery">
+                                <div class="img-logo">
+                                    <img src="./assets/images/img-gallery-1.png">
+                                    <a href="#" class="logo-text">SQL</a>
+                                </div>
+                                <div class="img-logo">
+                                    <img src="./assets/images/img-gallery-2.png">
+                                    <a href="#" class="logo-text">P</a>
+                                </div>
+                                <div class="img-logo">
+                                    <img src="./assets/images/img-gallery-3.png">
+                                    <a href="#" class="logo-text">Java</a>
+                                </div>
+                                <div class="img-logo">
+                                    <img src="./assets/images/img-gallery-4.png">
+                                    <a href="#" class="logo-text">.js</a>
+                                </div>
+                                <div class="img-logo">
+                                    <img src="./assets/images/img-gallery-5.png">
+                                    <a href="#" class="logo-text">.py</a>
+                                </div>
+                                <div class="img-logo">
+                                    <img src="./assets/images/img-gallery-6.png">
+                                    <a href="#" class="logo-text">.net</a>
+                                </div>
+                                <div class="img-logo">
+                                    <img src="./assets/images/img-gallery-7.png">
+                                    <a href="#" class="logo-text">PHP</a>
+                                </div>
+                                <div class="img-logo">
+                                    <img src="./assets/images/img-gallery-8.png">
+                                    <a href="#" class="logo-text">HTML</a>
+                                </div>
+                                <div class="img-logo">
+                                    <img src="./assets/images/img-gallery-9.png">
+                                    <a href="#" class="logo-text logo-text-more">99+ <br> More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="code-right wow slideInRight">
+                        <h2 class="code-right-heading">Write, debug, or explain code</h2>
+                        <p class="code-right-para">“Create [insert desired language] code that [insert your desired
+                            function].”</p>
+                        <a href="#" class="code-arrow">
+                            <img src="./assets/images/code-arrow.png" class="code-arrow-img">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="query-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="query-left wow slideInLeft">
+                        <h2 class="query-left-heading">Create simple or complex queries with SQL</h2>
+                        <p class="query-left-para">Generate simple, or complex SQL queries just by typing in your column
+                            names, table names, and your desired result. </p>
+                        <a href="#" class="query-code-arrow">
+                            <img src="./assets/images/code-arrow.png" class="query-code-arrow-img">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-7 mt-lg-0 mt-5">
+                    <div class="query-right wow slideInRight">
+                        <div class="query-right-team">
+                            <div class="query-team-imgs">
+                                <img class="query-img" src="./assets/images/query-team-1.png">
+                            </div>
+                            <div class="query-team-imgs">
+                                <img class="query-img" src="./assets/images/query-team-2.png">
+                            </div>
+                            <div class="query-team-imgs">
+                                <img class="query-img" src="./assets/images/query-team-3.png">
+                            </div>
+                            <div class="query-team-imgs">
+                                <img class="query-img" src="./assets/images/query-team-4.png">
+                            </div>
+                            <div class="query-team-imgs">
+                                <img class="query-img" src="./assets/images/query-team-5.png">
+                            </div>
+                            <div class="query-team-imgs">
+                                <img class="query-img" src="./assets/images/query-team-6.png">
+                            </div>
+                        </div>
+
+                        <div class="video-section">
+                            <div class="video-section-content">
+                                <video id="query-video" controls class="query-video-sections"
+                                    poster="./assets/images/video-img.png">
+                                    <source src="./assets/images/Growth Creek Intro.mp4" type="video/mp4">
+                                </video>
+                                <!-- <figure class="query-bg-img">
+                                    <img class="video-bg-img" id="img-none" src="./assets/images/video-img.png">
+                                </figure> -->
+                                <div class="video-play-btn" onclick="playPause()" id="play">
+                                    <img src="./assets/images/play-btn.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="faq-container">
+        <div class="container">
+            <div class="row">
+                <h1 class="faq-main-heading wow slideInDown">Frequently asked questions</h1>
+                <div class="faq-parent">
+                    <div class="col-md-12">
+                        <div class="faq wow slideInLeft">
+                            <div class="faq-nmb-content">
+                                <div class="faq-nmb">
+                                    <p class="faq-nmb-text">01</p>
+                                </div>
+                            </div>
+                            <div class="faq-content">
+                                <h3 class="faq-content-heading">Can I try it for free?</h3>
+                                <p class="faq-content-para">Yes! All users start off with <strong>20 FREE
+                                        credits</strong> they can use to test the product & get used to it.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="faq wow slideInRight">
+                            <div class="faq-nmb-content">
+                                <div class="faq-nmb">
+                                    <p class="faq-nmb-text">02</p>
+                                </div>
+                            </div>
+                            <div class="faq-content">
+                                <h3 class="faq-content-heading">How accurate is the code?</h3>
+                                <p class="faq-content-para">The output code is dependent on the quality of the input
+                                    code. The better & more specific your input code <i> (i.e. naming columns, tables,
+                                        variables, etc.)</i> the more accurate your result(s) will be.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="faq wow slideInLeft">
+                            <div class="faq-nmb-content">
+                                <div class="faq-nmb">
+                                    <p class="faq-nmb-text">03</p>
+                                </div>
+                            </div>
+                            <div class="faq-content">
+                                <h3 class="faq-content-heading">Can it handle any coding language?</h3>
+                                <p class="faq-content-para">We can generate code, translate, and debug for over 100 of
+                                    the most used coding languages used worldwide. Chances are, we can support your
+                                    desired language(s). Give it a try!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="faq wow slideInRight">
+                            <div class="faq-nmb-content">
+                                <div class="faq-nmb">
+                                    <p class="faq-nmb-text">04</p>
+                                </div>
+                            </div>
+                            <div class="faq-content">
+                                <h3 class="faq-content-heading">Is this a replacement for learning code?</h3>
+                                <p class="faq-content-para">Although many users highlight that our product actually
+                                    helps them learn code, this is not specifically intended to replace code... although
+                                    it can.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="blog-container">
+        <div class="container">
+            <h1 class="blog-main-heading text-center wow fadeInDownBig">Our latest Blog</h1>
+            <div class=" multiple-items wow fadeInUpBig">
+                <div class="col-md-4">
+                    <div class="slider-box">
+                        <div class="slider-img-content">
+                            <img class="slider-img" src="./assets/images/slide-1.png">
+                        </div>
+                        <div class="slider-text-content">
+                            <p class="slider-text">Very impressive video editing tool I have ever seen...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="slider-box">
+                        <div class="slider-img-content">
+                            <img class="slider-img" src="./assets/images/slide-2.png">
+                        </div>
+                        <div class="slider-text-content">
+                            <p class="slider-text">Very impressive video editing tool I have ever seen...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="slider-box">
+                        <div class="slider-img-content">
+                            <img class="slider-img" src="./assets/images/slide-3.png">
+                        </div>
+                        <div class="slider-text-content">
+                            <p class="slider-text">Very impressive video editing tool I have ever seen...</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="slider-box">
+                        <div class="slider-img-content">
+                            <img class="slider-img" src="./assets/images/slide-1.png">
+                        </div>
+                        <div class="slider-text-content">
+                            <p class="slider-text">Very impressive video editing tool I have ever seen...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-lg-4">
+                    <div class="footer-col-1">
+                        <figure>
+                            <img src="./assets/images/footer-logo.png">
+                        </figure>
+                        <p class="footer-address-text"><strong>Address</strong> <br> 341 South Main Street, Suite 500,
+                            Salt Lake City, Utah 84111</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-lg-3">
+                    <div class="footer-col-2">
+                        <h4 class="footer-link-heading">Products</h4>
+                        <ul class="footer-list">
+                            <li>
+                                <a class="footer-links" href="#">Text to speech</a>
+                            </li>
+                            <li>
+                                <a class="footer-links" href="#">Transcription</a>
+                            </li>
+                            <li>
+                                <a class="footer-links" href="#">Voice Cloning</a>
+                            </li>
+                            <li>
+                                <a class="footer-links" href="#">Voice over Video</a>
+                            </li>
+                            <li>
+                                <a class="footer-links" href="#">Voice Changer</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-5 col-lg-5">
+                    <div class="footer-col-3">
+                        <h4 class="footer-touch-heading">Get In Touch With Us</h4>
+                        <div class="footer-email-content">
+                            <input type="email" placeholder="Email here" class="footer-email-input">
+                            <button class="btn email-send-btn">Send</button>
+                        </div>
+                        <div class="footer-social-icons">
+                            <a href="#" class="footer-icons">
+                                <img src="./assets/images/footer-icon-1.png">
+                            </a>
+                            <a href="#" class="footer-icons">
+                                <img src="./assets/images/footer-icon-2.png">
+                            </a>
+                            <a href="#" class="footer-icons">
+                                <img src="./assets/images/footer-icon-3.png">
+                            </a>
+                            <a href="#" class="footer-icons">
+                                <img src="./assets/images/footer-icon-4.png">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./node_modules/wowjs/dist/wow.min.js"></script>
+    <script src="./node_modules/wowjs/dist/wow.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./assets/js/main.js"></script>
+
+</body>
+
+</html>
